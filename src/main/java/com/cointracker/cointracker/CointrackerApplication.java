@@ -1,0 +1,13 @@
+package com.cointracker.cointracker;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class CointrackerApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(CointrackerApplication.class, args);
+	}
+
+}
